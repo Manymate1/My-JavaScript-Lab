@@ -1,0 +1,14 @@
+
+#console-log {
+    background-color: #1e1e1e;
+    color: #00ff00;
+    font-family: monospace;
+    padding: 15px;
+    height: 200px;
+    overflow-y: auto;
+    border-radius: 5px;
+    border: 1px solid #444;
+}
+.log-error {
+    color: #ff5555;
+}

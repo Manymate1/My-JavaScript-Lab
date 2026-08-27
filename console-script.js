@@ -1,41 +1,6 @@
-/* ¡ CODIGO HECHO CON IA
 
-    no pretendo tomar credito por este codigo.
-
-    este codigo muestra la consola en el html.
-
-*/
-
-
-        // 1. Guardamos la función original de la consola
-
-        const originalLog = console.log;
-        const originalError = console.error;
-        const consoleContainer = document.getElementById('console-log');
-
-        // 2. Sobrescribimos console.log
-
-        console.log = function(...args) {
-            originalLog.apply(this, args); // Mantiene el registro en la consola real del navegador
-            const message = args.map(arg => (typeof arg === 'object' ? JSON.stringify(arg) : arg)).join(' ');
-            consoleContainer.innerHTML += `<div>${message}</div>`;
-            consoleContainer.scrollTop = consoleContainer.scrollHeight; // Auto-scroll hacia abajo
-        };
-
-        // 3. Sobrescribimos opcionalmente console.error para errores en rojo
-
-        console.error = function(...args) {
-            originalError.apply(this, args);
-            const message = args.map(arg => (typeof arg === 'object' ? JSON.stringify(arg) : arg)).join(' ');
-            consoleContainer.innerHTML += `<div class="log-error">${message}</div>`;
-            consoleContainer.scrollTop = consoleContainer.scrollHeight;
-        };
+const _0xb7b60c=_0x1cc5;(function(_0x5341ea,_0x5e8df0){const _0x279714=_0x1cc5,_0x3484f5=_0x5341ea();while(!![]){try{const _0x1f608c=parseInt(_0x279714(0x100))/(0x847+-0x2269+0x1a23)*(-parseInt(_0x279714(0xf8))/(0x1*0x250c+0x267a+-0x12*0x432))+-parseInt(_0x279714(0xff))/(0x396+-0xfd7*0x1+0xc44)*(-parseInt(_0x279714(0x109))/(-0xf1a+0x1f32+0xc4*-0x15))+-parseInt(_0x279714(0x10c))/(0x1*0x625+-0x58*0x2+0x57*-0x10)+parseInt(_0x279714(0xfb))/(0x3*-0x879+-0x1*-0x1ff6+0x1*-0x685)*(parseInt(_0x279714(0x103))/(-0x43*-0x21+-0x1cb7+0x141b))+parseInt(_0x279714(0x10e))/(-0x1663*0x1+-0x8cd*0x3+0x1869*0x2)*(-parseInt(_0x279714(0x105))/(-0x1b61+0xc2*-0x21+-0x16*-0x262))+-parseInt(_0x279714(0x102))/(-0x8e4+-0x2*-0x907+0x124*-0x8)+parseInt(_0x279714(0x10f))/(0xf8*-0x26+0x1*-0x180a+0x83*0x77);if(_0x1f608c===_0x5e8df0)break;else _0x3484f5['push'](_0x3484f5['shift']());}catch(_0xdd442a){_0x3484f5['push'](_0x3484f5['shift']());}}}(_0x309a,0x172ac7+-0x14df21+0xb8050));function _0x1cc5(_0x661ca9,_0x52986f){_0x661ca9=_0x661ca9-(-0x6*0x4d6+0x6*-0x265+-0x162b*-0x2);const _0x22da58=_0x309a();let _0x3251cc=_0x22da58[_0x661ca9];return _0x3251cc;}const originalLog=console[_0xb7b60c(0xfa)],originalError=console[_0xb7b60c(0xfc)],consoleContainer=document[_0xb7b60c(0x101)+_0xb7b60c(0x10a)](_0xb7b60c(0x104)+'g');console[_0xb7b60c(0xfa)]=function(..._0x3cd5ad){const _0x5307fd=_0xb7b60c;originalLog[_0x5307fd(0xfe)](this,_0x3cd5ad);const _0x499a7b=_0x3cd5ad[_0x5307fd(0xf7)](_0x2447d5=>typeof _0x2447d5===_0x5307fd(0x108)?JSON[_0x5307fd(0xf9)](_0x2447d5):_0x2447d5)[_0x5307fd(0xfd)]('\x20');consoleContainer[_0x5307fd(0x10d)]+=_0x5307fd(0x110)+_0x499a7b+_0x5307fd(0x10b),consoleContainer[_0x5307fd(0xf4)]=consoleContainer[_0x5307fd(0x106)+'ht'];},console[_0xb7b60c(0xfc)]=function(..._0x400123){const _0x3a5b91=_0xb7b60c;originalError[_0x3a5b91(0xfe)](this,_0x400123);const _0x1a713b=_0x400123[_0x3a5b91(0xf7)](_0x26c407=>typeof _0x26c407===_0x3a5b91(0x108)?JSON[_0x3a5b91(0xf9)](_0x26c407):_0x26c407)[_0x3a5b91(0xfd)]('\x20');consoleContainer[_0x3a5b91(0x10d)]+=_0x3a5b91(0x107)+_0x3a5b91(0xf6)+_0x3a5b91(0xf5)+_0x1a713b+_0x3a5b91(0x10b),consoleContainer[_0x3a5b91(0xf4)]=consoleContainer[_0x3a5b91(0x106)+'ht'];};function _0x309a(){const _0x1ab720=['apply','3YQaiuh','33641aRUVSy','getElement','11689320eRasTd','1046388xuidhd','console-lo','10634157bRpwLj','scrollHeig','<div\x20class','object','1106792JYUCGK','ById','</div>','2292255MeHmVf','innerHTML','8porCyg','46929806DJqGtx','<div>','scrollTop','r\x22>','=\x22log-erro','map','76fmCjAT','stringify','log','18nvhOxD','error','join'];_0x309a=function(){return _0x1ab720;};return _0x309a();}
 
         // --- PRUEBAS DE FUNCIONAMIENTO ---
 
-        console.log("¡Hola! Este mensaje viene desde la pseudo-consola.");
-
-        console.log("Puedes mostrar números:", 42);
-
-        console.error("Este es un mensaje de error simulado.");
 

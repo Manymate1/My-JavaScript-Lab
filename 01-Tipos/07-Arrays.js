@@ -21,3 +21,13 @@ console.log ( lenguajes [2])
 // Si quiero añadir un valor mas al array, no tengo que buscarlo manualmente, puedo simplemente:
 
 lenguajes[3] = 'C'
+
+console.log(lenguajes)
+
+// Si apreciamos, Los Arrays se comportan como objetos:
+
+console.log(typeof lenguajes)
+
+// Por ello podemos usarlos como tal
+
+console.log(lenguajes.length)

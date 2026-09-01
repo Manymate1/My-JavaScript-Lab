@@ -8,4 +8,8 @@ let Resultado = 8 / ( 2 * (2 + 2) )
 
 console.log( Resultado )
 
+let rEsultado = ( 8 /  2 ) * 2 + 2
+
+console.log(rEsultado)
+
 // La prioridad de parentesis, todo lo que este dentro de un parentesis se ejecutara primero, en este caso primero ( 2 + 2 ), posterior mente ( 2 * ) y finalmente 8.

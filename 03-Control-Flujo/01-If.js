@@ -8,6 +8,6 @@ if ( edad > 17 ){
 
     console.log (' Este Usuario Es Mayor De Edad ')
 
-}
+}  // si " edad " es mayor a 17, imprime " Este usuario es Mayor de edad "
 
 

@@ -1,4 +1,4 @@
-// A diferencia del While que empieza evaluando de arriba para abajo, Do While lo hace de abajo para arriba.
+// A diferencia del While que Evalua primero la condición y luego ejecuta el codigo, Do While Ejecuta primero el codigo y luego la condición.
 
 let i = 2
 

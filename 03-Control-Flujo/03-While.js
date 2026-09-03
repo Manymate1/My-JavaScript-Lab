@@ -4,10 +4,12 @@ let i = 0
 
 while ( i < 10 ) {
 
+    if ( i % 2 == 0 )
+
     console.log ( i )
     i++
 
-} // MIENTRAS i sea menor a 10, imprime i y luego de imprimirlo sumale 1.
+} // MIENTRAS i sea menor a 10, imprime i y luego de imprimirlo sumale 1, aparte, muestra solo los numeros pares.
 
 console.log (' Fuera del While ')
 

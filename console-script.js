@@ -26,7 +26,5 @@ este codigo muestra la consola en el html.
 
         // --- PRUEBAS DE FUNCIONAMIENTO ---
 
-        
-
 
 

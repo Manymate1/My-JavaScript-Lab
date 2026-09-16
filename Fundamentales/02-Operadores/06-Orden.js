@@ -2,7 +2,7 @@ let resultado = 8 / 2 * ( 2 + 2 ) // NOTA: en el espacio entre 2 ( 2, de debe ex
 
 console.log ( resultado )
 
-// Si quieres cambiar el resultado que dara, debes encerrar lo que queiras que cambie en el parentesis.
+// Si quieres cambiar el resultado que dara, debes encerrar lo que quieras que cambie en el parentesis.
 
 let Resultado = 8 / ( 2 * (2 + 2) )
 

@@ -15,21 +15,15 @@ La función no debe imprimir nada por dentro — solo return. Prueba con al meno
 function clasificarEdad(edad){
 
     if (edad < 13){
-
         return "niño"
-
     }
 
     else if (edad < 18){
-
         return "adolescente"
-
     }
 
     else{
-
         return "adulto"
-
     }
 
 }

@@ -24,7 +24,4 @@ este codigo muestra la consola en el html.
                 consoleContainer.scrollTop = consoleContainer.scrollHeight;
         };
 
-        // --- PRUEBAS DE FUNCIONAMIENTO ---
-
-
-
+        // :3c --- PRUEBAS DE FUNCIONAMIENTO ---

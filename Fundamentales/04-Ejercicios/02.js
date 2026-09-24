@@ -34,4 +34,3 @@ compra(precioProducto, cantidadProducto, porcentaje)
 
 // * la función no le importa de dónde vienen los datos ni cómo se llaman las variables afuera. Puedes reutilizarla con cualquier precio, cantidad o porcentaje sin tocar su código interno. En la primera versión, si cambias el nombre de precio en el scope global, la función se rompe. Regla práctica: si una función usa un valor que viene de afuera y ese valor puede cambiar o variar entre llamadas, debe ser un parámetro. Solo accede a variables externas cuando son constantes globales verdaderas (configuración fija, no datos de negocio).
 
-

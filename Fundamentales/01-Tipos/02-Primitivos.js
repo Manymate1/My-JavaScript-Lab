@@ -1,4 +1,4 @@
-// === Valor Tipo Número ===
++// === Valor Tipo Número ===
 
 let numero = 1 ;
 

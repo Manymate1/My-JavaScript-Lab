@@ -1,0 +1,1 @@
+// Teoría ligera: un evento es una acción del usuario (clic, tecleo, envío de formulario). elemento.addEventListener("click", funcion) ejecuta funcion cada vez que ocurre ese evento sobre elemento. La función que pasas no se llama con () ahí — se pasa la referencia, JS la invoca solo cuando el evento ocurre.
